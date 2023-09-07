@@ -6,10 +6,13 @@
 }
 .welcome-header__title {
   margin-top: 50px;
+  margin-bottom: 25px;
   color: rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  font-weight: 500;
 }
 .welcome-header__subtitle {
-  width: 300px;
+  width: 260px;
   color: var(--main-color);
 }
 .log-in-form {
