@@ -1,0 +1,12 @@
+.bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.bar__column-left {
+  margin-right: 5px;
+}
+.fa-lock-open {
+  margin-right: 5px;
+}

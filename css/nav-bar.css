@@ -1,0 +1,40 @@
+.nav__bar {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 50px;
+  background-color: #f9f9fa;
+}
+.nav__btn a {
+  color: #2e363e;
+}
+.new-one {
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  background-color: tomato;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+  bottom: 18px;
+  left: 20px;
+}
+.nav__btn {
+  position: relative;
+}
+.new-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: tomato;
+  position: absolute;
+  bottom: 25px;
+  left: 28px;
+}
