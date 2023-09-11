@@ -10,6 +10,7 @@
 }
 .main-header__icons i {
   margin-left: 20px;
+  position: relative;
 }
 .main-info {
   text-align: center;
@@ -54,4 +55,25 @@
 }
 .friends__main__bottom__right i {
   margin-left: 5px;
+}
+@keyframes splashIcon {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.spalsh-icon {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  font-size: 100px;
+  animation: splashIcon 1s linear forwards;
 }

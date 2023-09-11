@@ -1,0 +1,120 @@
+.new-dot-more {
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: tomato;
+  position: absolute;
+  top: 50px;
+}
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-row__icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon-row__icons i {
+  margin: 30px 0px;
+  font-size: 30px;
+}
+.recommended-firends {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0px;
+  padding-bottom: 120px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.6);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6);
+}
+.recommended-firends span:last-child {
+  margin-top: 80px;
+  text-align: center;
+}
+.open-chat {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.open-chat span:last-child i {
+  margin-left: 5px;
+}
+.open-chat__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.open-chat__box__column {
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.6);
+  padding-bottom: 25px;
+  position: relative;
+}
+.open-chat__box__column-info img {
+  width: 20px;
+  height: 20px;
+}
+.open-chat__box__column-info {
+  display: flex;
+  align-items: center;
+}
+.open-chat__box__column-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+.open-chat__box__column span:first-child {
+  color: black;
+  font-weight: 400;
+}
+.open-chat__box__column span {
+  margin-bottom: 5px;
+}
+.open-chat__box__column-info span {
+  margin-right: 5px;
+}
+.open-chat__box__column-info span:nth-child(2) {
+  border-right: 2px solid rgba(0, 0, 0, 0.4);
+  padding-right: 5px;
+}
+.open-chat__box__column-info span:last-child {
+  color: tomato;
+}
+.open-chat__box__line {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+@keyframes heartBeat {
+  0% {
+    color: none;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: none;
+  }
+}
+.heart-beat {
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  font-size: 12px;
+  padding: 3px;
+  right: 8px;
+  top: 60px;
+}
+.heart-beat:hover i {
+  animation: heartBeat 1s linear infinite;
+  will-change: color;
+}
+.heart-beat i {
+  margin-right: 3px;
+}

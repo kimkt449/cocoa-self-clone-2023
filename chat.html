@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to self-cocoatalk</title>
+    <title>Chat-cocoatalk</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body id="chat__screen">
     <main>
       <div class="bar">
         <div class="bar__column">
@@ -23,27 +23,23 @@
           <i class="fas fa-bolt fa-sm"></i>
         </div>
       </div>
-      <div class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to Cocoatalk</h1>
-        <h4 class="welcome-header__subtitle">
-          If you have a Cocoa account, log in with your email or phone number.
-        </h4>
+      <div class="main-header">
+        <div class="main-header__top main-header__top__settings chat__header">
+          <a class="chat__header__first" href="chats.html">
+            <i class="fas fa-chevron-left fa-lg"></i>
+          </a>
+          <div class="main-header__title chat__header__second">순순이</div>
+          <div class="main-header__icons chat__header__third">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+          </div>
+        </div>
       </div>
-      <form action="friends.html" method="get" class="log-in-form">
-        <input
-          class="log-in-form__id"
-          type="text"
-          placeholder="Email or phone number"
-        />
-        <input
-          class="log-in-form__password"
-          type="password"
-          placeholder="Password"
-        />
-        <button class="log-in-form__button1">log in</button>
-        <button class="log-in-form__button2">sign Up</button>
-        <a href="#">Find Cocoatalk account or password</a>
-      </form>
+      <div class="message-row">
+        <div class="time-table">
+          <span>Tuesday, June 30, 2023</span>
+        </div>
+      </div>
     </main>
     <div class="no-big">
       <span

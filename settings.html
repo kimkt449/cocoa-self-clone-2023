@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends-cocoatalk</title>
+    <title>Settings-cocoatalk</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -24,47 +24,41 @@
         </div>
       </div>
       <div class="main-header">
-        <div class="main-header__top">
-          <div class="main-header__title">Friends</div>
+        <div class="main-header__top main-header__top__settings">
+          <a href="more.html"
+            ><div><i class="fas fa-chevron-left fa-lg"></i></div>
+          </a>
+          <div class="main-header__title">Settings</div>
           <div class="main-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>
-            <span><i class="fas fa-cog fa-lg"></i></span>
           </div>
         </div>
       </div>
-
-      <div class="main-info">
-        <i class="fas fa-info-circle fa-sm"></i
-        ><span>Friends' names display</span>
+      <div class="settings__list">
+        <span class="settings__list__icon">
+          <i class="fas fa-bullhorn fa-lg"></i
+        ></span>
+        <span class="settings__list__text">Notices</span>
       </div>
-      <div class="friends__main">
-        <div class="friends__main__top">
-          <img src="cro.jpeg" alt="no image" />
-          <span>Ki Taek</span>
-        </div>
-        <div class="friends__main__middle">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
-        <div class="friends__main__bottom">
-          <div class="friends__main__bottom__left">
-            <img src="cro.jpeg" alt="no image" />
-            <span>Channel</span>
-          </div>
-          <div class="friends__main__bottom__right">
-            <span>2<i class="fas fa-chevron-right fa-xs"></i> </span>
-          </div>
-        </div>
+      <div class="settings__list">
+        <span class="settings__list__icon"
+          ><i class="fas fa-flask fa-lg"></i
+        ></span>
+        <span class="settings__list__text">Cocoa Lab</span>
+      </div>
+      <div class="settings__list">
+        <span class="settings__list__icon"
+          ><i class="fas fa-info-circle fa-lg"></i
+        ></span>
+        <span class="settings__list__text">Version</span>
       </div>
     </main>
     <nav class="nav__bar">
       <div class="nav__btn">
-        <a href="friends.html"><i class="fas fa-user fa-2x"></i></a>
+        <a href="friends.html"><i class="far fa-user fa-2x"></i></a>
       </div>
       <div class="nav__btn">
         <a href="chats.html"><i class="far fa-comment fa-2x"></i></a>
-        <span class="new-one">1</span>
       </div>
       <div class="nav__btn">
         <a href="search.html"><i class="fas fa-search fa-2x"></i></a>
@@ -74,9 +68,6 @@
         <span class="new-dot"></span>
       </div>
     </nav>
-    <div class="spalsh-icon">
-      <i class="fas fa-comment fa-2x"></i>
-    </div>
     <div class="no-big">
       <span
         >화면의 크기가 너무 크거나 가로모드입니다. 화면의 크기를 줄이거나

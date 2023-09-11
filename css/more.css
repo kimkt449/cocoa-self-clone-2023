@@ -1,0 +1,11 @@
+.icon-row__more {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.icon-row__more div {
+  width: 25%;
+}
+.icon-row__more-f {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
